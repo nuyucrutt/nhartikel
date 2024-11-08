@@ -10,8 +10,7 @@ This website tells about articles or essays
 ## Authors
 
 - [@nuyucrutt](https://github.com/nuyucrutt)
-- [https://revou-fsse-oct24.github.io/module-1-nuyucrutt/](https://revou-fsse-oct24.github.io/module-1-nuyucrutt/)
-
+- [https://nuymodule2.netlify.app](https://nuymodule2.netlify.app)
 ## BIO
 
 <p style="font-family: 'Tilt Neon', sans-serif;">
