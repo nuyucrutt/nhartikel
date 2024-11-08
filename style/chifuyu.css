@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'font2';
+    src: url('../font/Henny_Penny\,Sour_Gummy/HennyPenny-Regular.ttf');
+}
+
+
+.animasi {
+    font-family: "Henny Penny", system-ui; 
+    float: left;
+    color:rgb(208, 20, 168);
+    position: relative;
+    filter: drop-shadow(30px 10px 4px #ee95ec);
+    animation: animasi 5s linear 2s infinite alternate ;
+  }
+  
+@keyframes animasi {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+
+
+main {
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  
+  .row {
+    display: flexbox ; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    section ul a {
+        flex-direction: row;
+        width: fit-content;
+        height: fit-content;
+    }
+    .animasi {
+        width: 20%;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    section ul a {
+        flex-direction: row;
+        width: fit-content;
+        height: fit-content;
+    }
+
+  }
+
+  
