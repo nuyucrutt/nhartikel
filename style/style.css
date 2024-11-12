@@ -23,24 +23,43 @@ header {
 
 nav {
     display: flex; 
+    list-style-type: none;
     font-size: 2vw;
-    flex-direction: row; 
-    position: sticky; 
-    top: 0; 
+  
+    
+    
     overflow: hidden; 
     background-color: #FFC6C6; 
 }
 
 nav ul {
-    padding: 8px;
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
 }
 
+nav ul li {
+    position: sticky;
+    float: left;
+}
+
+nav ul li a {
+    position: sticky;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
 nav ul a:hover{
-    background-color: rgb(236, 237, 237);
-    list-style-type: none;
-    border: #eeeeef8a;
-    padding: 8px;
-    flex-direction: column;
+    background-color: #F2BED1;
+
 }
  
 
