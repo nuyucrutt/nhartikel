@@ -3,7 +3,10 @@
     src: url('../font/Henny_Penny\,Sour_Gummy/HennyPenny-Regular.ttf');
 }
 
-
+.header_chifuyu {
+  background-image: url('/chifuyu.jpg'); 
+  background-position: center;
+}
 
 main {
     box-sizing: border-box;

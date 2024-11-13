@@ -101,7 +101,7 @@ main {
     
 
     header {
-        font-family: "Edu AU VIC WA NT Pre", cursive;
+       
         font-optical-sizing: auto;
         font-weight: weight;
         font-style: normal;
@@ -136,7 +136,7 @@ main {
 
 footer {
   
-    border: solid black 1px;
+   
     background-color: lightgoldenrodyellow;
     column-count: 2;
     column-gap: 40px;
@@ -144,7 +144,7 @@ footer {
     display: block;
     font-size: 2vw;
     background-color: #eeeeefd4;
-    padding: 6%;
+    padding: 5rem;
     text-align: center;
 
 }
@@ -152,6 +152,7 @@ footer {
 footer img {
    
     text-align: center ;
+    position: relative;
     float: left; 
     width: 27vw;
     
