@@ -9,6 +9,7 @@ html head body {
     height: 100px;
     background-image: url(../Aset/1.png);
     background-repeat: no-repeat;
+    position: relative;
 }
 
 header {
@@ -22,18 +23,17 @@ header {
 
 
 nav {
+   
     display: flex; 
     list-style-type: none;
     font-size: 2vw;
-  
-    
-    
+    border:1px solid #d3d3d3;
     overflow: hidden; 
     background-color: #FFC6C6; 
 }
 
 nav ul {
-    position: sticky;
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -43,12 +43,12 @@ nav ul {
 }
 
 nav ul li {
-    position: sticky;
+    
     float: left;
 }
 
 nav ul li a {
-    position: sticky;
+   
     display: block;
     color: white;
     text-align: center;
@@ -62,6 +62,24 @@ nav ul a:hover{
 
 }
  
+.animasi {
+    font-family: "Henny Penny", system-ui; 
+    float: left;
+    color:rgb(208, 20, 168);
+    position: relative;
+    filter: drop-shadow(30px 10px 4px #ee95ec);
+    animation: animasi 5s linear 2s infinite alternate ;
+  }
+  
+@keyframes animasi {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+
+
 
 main {
     height: fit-content;
@@ -87,6 +105,7 @@ main {
         font-optical-sizing: auto;
         font-weight: weight;
         font-style: normal;
+        float: left;
     }
 
     section {
@@ -117,12 +136,28 @@ main {
 
 footer {
   
-    
-    
+    border: solid black 1px;
+    background-color: lightgoldenrodyellow;
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
     display: block;
     font-size: 2vw;
     background-color: #eeeeefd4;
-    padding: 5%;
+    padding: 6%;
     text-align: center;
 
+}
+
+footer img {
+   
+    text-align: center ;
+    float: left; 
+    width: 27vw;
+    
+}
+
+footer p {
+    float: right;
+    text-align: center center;
 }
