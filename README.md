@@ -1,25 +1,30 @@
 # Project Title
 
-We are a platform that presents a collection of interesting and informative articles from various topics.
+We are a platform that presents a collection of interesting and informative articles from various topics.                 |
+<br/><br/>
 
 ## Appendix
 
 Any additional information goes here,
 This website tells about articles or essays
+<br/><br/>
 
 ## Authors
 
 - [@nuyucrutt](https://github.com/nuyucrutt)
 - [https://nhartikel.my.id/](https://nhartikel.my.id/)
+<br/><br/>
+
 ## BIO
 
 <p style="font-family: 'Tilt Neon', sans-serif;">
   <b>Name</b>: Nurhalimah <br/>
   <b>Gender</b>: Female <br/>
-
 </p>
 
-## Form Contact
+<br/><br/>
+
+## Form 
 
 ```http
           Table Structure Data
@@ -33,4 +38,33 @@ This website tells about articles or essays
 | `Subject` | `varchar` | -                                |
 | `Massage` | `varchar` | -                                |
 
-![Logo](Aset/Logo-NH.png)
+<br/><br/>
+
+```http
+          Table File HTML
+```
+
+| Menu   | File HTML        | Desc                            |
+| :---------- | :---------- | :------------------------------- |
+| `Home`      | `indext.html`     | - |
+| `Artikel`    | `artikel.html` | -                                |
+| `Artikel`    | `artikel-1.html` | Terdapat pada article iframe                               |
+| `Contact`   | `contact.html` | -                                |
+| `Home` | `chifuyu.html` | Link ada di artikel chifuyu               
+<br/><br/>
+```http
+          Table Media Query
+```
+
+| Resolusi    | Background Color        | Desc                            |
+| :---------- | :---------- | :------------------------------- |
+| `max-width:500px`      | `rgb(170, 243, 227)`     | - |
+| `max-width:800px`    | `lightblue` | -                                |
+
+<br/><br/>
+
+# Logo
+<br/><br/>
+![Logo](Aset/Logo-NH.png) <br/><br/>
+![Logo](Aset/Pink-and-White-Minimalist-Init-unscreen.gif)
+
