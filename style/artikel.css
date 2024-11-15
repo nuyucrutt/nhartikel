@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'font1';
+    src: url('../font/Sour_Gummy/SourGummy-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+
+html head body {
+    width: 100%;
+    height: 100px;
+    background-image: url(../Aset/1.png);
+    background-attachment: fixed;
+    position: relative;
+}
+
+header {
+    background-color: #eeeeef8a; 
+    width: 75%; 
+    padding-left: 15%; 
+    padding-right: 10%; 
+    background-attachment: fixed;
+    
+}
+
+header img {
+
+    padding-top: 5vw; 
+    float: left; 
+    height: 12vw; 
+    width: 12vw;
+}
+
+header h1 {
+    float: center; 
+    font-size: 5vw; 
+    text-align:center; 
+    padding-top: 7%; 
+    text-shadow: 10vw #FFC6C6;
+}
+
+header h1 p {
+    font-size: 2vw;
+}
+
+
+header marquee {
+    direction: right; 
+    padding-bottom: 2%; 
+    font-size: 2vw ;
+    color: rgba(207, 147, 190, 0.859); 
+    
+}
+
+
+nav {
+    position: sticky;
+    list-style-type: none;
+    font-size: 2vw;
+    border:1vw solid #d3d3d3;
+    overflow: hidden; 
+    background-color: #FFC6C6; 
+}
+
+nav ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+
+nav ul li {
+    
+    float: left;
+}
+
+nav ul li a {
+   
+    display: block;
+    color: white;
+    text-align: center;
+    width: 1vw;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav ul a:hover{
+    background-color: #F2BED1;
+
+}
+ 
+.animasi {
+    font-family: "Henny Penny", system-ui; 
+    float: left;
+    color:rgb(208, 20, 168);
+    position: relative;
+    filter: drop-shadow(30vw 10vw 4vw #ee95ec);
+    animation: animasi 5s linear 2s infinite alternate ;
+    width: 20vw; 
+    font-size: 5vw;
+    text-align: center; 
+  }
+  
+@keyframes animasi {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+
+.clock-widget-text{
+    float: right;
+    padding-left: 10%;
+    width: 30vw;
+    height: 8vw;
+    text-align: center;
+}
+
+main {
+    height: fit-content;
+    display: grid; 
+    grid-template-areas: 'leaft right';  
+    background-color: #eeeeef8a; 
+    width: 90%; 
+    padding-left: 5%;  
+    padding-right: 5%; 
+    padding-bottom: 10%; 
+}
+
+main article {
+    float: left;
+    width: 60vw;
+}
+
+main article h1 {
+    font-size: 7vw;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main article img {
+    width: 60vw;
+    height: 30vw ;
+}
+
+main article iframe {
+    width: 60vw;
+    height: 900px ;
+    font-size: 4vw;
+}
+
+
+.video {
+    width: 60vw;
+    height: 40vw ;
+}
+
+main aside {
+    width: 20rem; 
+    float: right;
+    
+    
+}
+
+main aside h1 {
+    padding-left: 10vw;
+    font-size: 2vw; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main aside img {
+    padding-left: 5vw;
+    
+    width: 15vw;
+    height: 20vw;
+}
+
+main aside dl {
+    font-size: 1vw; 
+    padding-left: 10vw;
+    
+}
+
+footer {
+  
+    
+    background-color: lightgoldenrodyellow;
+    column-count: 2;
+    column-gap: 40%;
+    column-rule: 1px solid lightblue;
+    display: block;
+    font-size: 2vw;
+    background-color: #eeeeefd4;
+    padding: 6%;
+    text-align: center;
+
+}
+
+footer img {
+    
+    align-items: center;
+    justify-content: center;
+    position: center;
+    text-align: center ;
+    float: left; 
+    width: 27vw;
+    
+}
+
+footer p {
+    float: left;
+    text-align: center ;
+}
+
+footer a img {
+    float: center center;
+    padding: 1vw;
+    float: right;
+    width:  4vw;
+   
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    body {
+      width: 80%;
+      padding: 0;
+      background-color: lightblue;
+      
+      
+    }
+    main {
+        height: fit-content;
+    }
+    
+
+    header {
+        font-family: "Edu AU VIC WA NT Pre", cursive;
+        text-align: center;
+        font-weight: weight;
+        font-style: normal;
+        float: left;
+    }
+
+    section {
+        size-adjust: 50px;
+        
+      }
+
+    section ul a {
+        flex-direction: row;
+        width: 300;
+        float: center;
+    }
+    
+   
+   
+
+  }
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    body {
+      width: 100%;
+      background-color: rgb(170, 243, 227);
+      font-family: 'font1';
+      
+    }
+    
+   
+}
