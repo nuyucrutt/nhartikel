@@ -10,7 +10,7 @@ This website tells about articles or essays
 ## Authors
 
 - [@nuyucrutt](https://github.com/nuyucrutt)
-- [https://nuymodule2.netlify.app](https://nuymodule2.netlify.app)
+- [https://nhartikel.my.id/](https://nhartikel.my.id/)
 ## BIO
 
 <p style="font-family: 'Tilt Neon', sans-serif;">
