@@ -33,7 +33,6 @@ header h1 {
     float: center; 
     font-size: 5vw; 
     text-align:center; 
-    padding-top: 7%; 
     text-shadow: 10vw #FFC6C6;
 }
 
@@ -98,7 +97,8 @@ nav ul a:hover{
     position: relative;
     filter: drop-shadow(30vw 10vw 4vw #ee95ec);
     animation: animasi 5s linear 2s infinite alternate ;
-    width: 50%; 
+    width: 20vw; 
+    font-size: 5vw;
     text-align: center; 
   }
   
@@ -110,12 +110,17 @@ nav ul a:hover{
     100% { left:0px; top:0px;}
   }
 
-a {
+.clock-widget-text{
     float: right;
     padding-left: 10%;
+    width: 30vw;
+    height: 8vw;
+    text-align: center;
 }
 
+
 main {
+    padding-top: 20vw;
     background-color: #eeeeef8a; 
     height: fit-content; 
     width: 75%; 
@@ -126,6 +131,12 @@ main {
 main article {
     font-size: 7vw;  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main article iframe {
+    width: 65vw;
+    height: 600px ;
+    font-size: 4vw;
 }
 
 @media only screen and (max-width:800px) {
@@ -141,6 +152,11 @@ main article {
         height: fit-content;
     }
     
+    main article iframe {
+        width: 55vw;
+        height: 270px ;
+        font-size: 4vw;
+    }
 
     header {
         font-family: "Edu AU VIC WA NT Pre", cursive;
@@ -173,7 +189,11 @@ main article {
       font-family: 'font1';
       
     }
-    
+    main article iframe {
+        width: 55vw;
+        height: 80px ;
+        font-size: 4vw;
+    }
    
 }
 

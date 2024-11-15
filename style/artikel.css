@@ -33,7 +33,6 @@ header h1 {
     float: center; 
     font-size: 5vw; 
     text-align:center; 
-    padding-top: 7%; 
     text-shadow: 10vw #FFC6C6;
 }
 
@@ -80,7 +79,6 @@ nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    width: 1vw;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -91,6 +89,7 @@ nav ul a:hover{
 
 }
  
+
 .animasi {
     font-family: "Henny Penny", system-ui; 
     float: left;
