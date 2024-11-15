@@ -8,7 +8,7 @@ html head body {
     width: 100%;
     height: 100px;
     background-image: url(../Aset/1.png);
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -21,13 +21,41 @@ header {
     
 }
 
+header img {
+
+    padding-top: 5vw; 
+    float: left; 
+    height: 12vw; 
+    width: 12vw;
+}
+
+header h1 {
+    float: center; 
+    font-size: 5vw; 
+    text-align:center; 
+    padding-top: 7%; 
+    text-shadow: 10vw #FFC6C6;
+}
+
+header h1 p {
+    font-size: 2vw;
+}
+
+
+header marquee {
+    direction: right; 
+    padding-bottom: 2%; 
+    font-size: 2vw ;
+    color: rgba(207, 147, 190, 0.859); 
+    
+}
+
 
 nav {
-   
-    display: flex; 
+    position: sticky;
     list-style-type: none;
     font-size: 2vw;
-    border:1px solid #d3d3d3;
+    border:1vw solid #d3d3d3;
     overflow: hidden; 
     background-color: #FFC6C6; 
 }
@@ -62,13 +90,30 @@ nav ul a:hover{
 
 }
  
+section {
+ 
+    
+    grid-template-areas: 'leaft right'; 
+    background-color: #eeeeefd4; 
+    list-style-type: none ; width: 94%; 
+    padding-left: 5%;  
+    padding-right: 5%;  
+    text-align: left; 
+    font-weight: bold; 
+    font-size: 43px; 
+    overflow: hidden; 
+    padding: 3%; 
+}
+
 .animasi {
     font-family: "Henny Penny", system-ui; 
     float: left;
     color:rgb(208, 20, 168);
     position: relative;
-    filter: drop-shadow(30px 10px 4px #ee95ec);
+    filter: drop-shadow(30vw 10vw 4vw #ee95ec);
     animation: animasi 5s linear 2s infinite alternate ;
+    width: 50%; 
+    text-align: center; 
   }
   
 @keyframes animasi {
@@ -79,11 +124,78 @@ nav ul a:hover{
     100% { left:0px; top:0px;}
   }
 
-
+a {
+    float: right;
+    padding-left: 10%;
+}
 
 main {
     height: fit-content;
+    display: grid; 
+    grid-template-areas: 'leaft right';  
+    background-color: #eeeeef8a; 
+    width: 90%; 
+    padding-left: 5%;  
+    padding-right: 5%; 
+    padding-bottom: 10%; 
 }
+
+main article {
+    float: left;
+    width: 150%;
+}
+
+main article h1 {
+    font-size: 7vw;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main article img {
+    width: 60vw;
+    height: 30vw ;
+}
+
+main article iframe {
+    width: 60vw;
+    height: 900px ;
+}
+
+.chifuyu {
+    
+}
+
+.video {
+    width: 60vw;
+    height: 40vw ;
+}
+
+main aside {
+    width: 20rem; 
+    float: right;
+    
+    
+}
+
+main aside h1 {
+    padding-left: 10vw;
+    font-size: 2vw; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main aside img {
+    padding-left: 5vw;
+    
+    width: 15vw;
+    height: 20vw;
+}
+
+main aside dl {
+    font-size: 1vw; 
+    padding-left: 10vw;
+    
+}
+
+
  
 
 @media only screen and (max-width:800px) {
@@ -101,7 +213,7 @@ main {
     
 
     header {
-       
+        font-family: "Edu AU VIC WA NT Pre", cursive;
         font-optical-sizing: auto;
         font-weight: weight;
         font-style: normal;
@@ -131,34 +243,45 @@ main {
       font-family: 'font1';
       
     }
+    
    
 }
 
 footer {
   
-   
+    
     background-color: lightgoldenrodyellow;
     column-count: 2;
-    column-gap: 40px;
+    column-gap: 40%;
     column-rule: 1px solid lightblue;
     display: block;
     font-size: 2vw;
     background-color: #eeeeefd4;
-    padding: 5rem;
+    padding: 6%;
     text-align: center;
 
 }
 
 footer img {
-   
+    
+    align-items: center;
+    justify-content: center;
+    position: center;
     text-align: center ;
-    position: relative;
     float: left; 
     width: 27vw;
     
 }
 
 footer p {
+    float: left;
+    text-align: center ;
+}
+
+footer a img {
+    float: center center;
+    padding: 1vw;
     float: right;
-    text-align: center center;
+    width:  4vw;
+   
 }
