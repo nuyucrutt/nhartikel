@@ -70,7 +70,7 @@ This website tells about articles or essays
 
 #Dokumentasi 
 
-[Deployment Connect Netlifly to GitHub project  ](Aset/Deployment%20and%20Connect%20Netlifly%20to%20GitHub%20project.pdf)
+[Deployment Connect Netlifly to GitHub project  ](Aset/Deployment%20Connect%20Netlifly%20to%20GitHub%20project.pdf)
 <br>
 [Setting Domain on Netlify](Aset/Setting%20Domain%20On%20Netlify.pdf)
 <br>
