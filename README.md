@@ -68,3 +68,10 @@ This website tells about articles or essays
 ![Logo](Aset/Logo-NH.png) <br/><br/>
 ![Logo](Aset/Pink-and-White-Minimalist-Init-unscreen.gif)
 
+#Dokumentasi 
+
+[Deployment Connect Netlifly to GitHub project  ](Aset/Deployment%20and%20Connect%20Netlifly%20to%20GitHub%20project.pdf)
+<br>
+[Setting Domain on Netlify](Aset/Setting%20Domain%20On%20Netlify.pdf)
+<br>
+[Domain Registration and DNS Management](Aset/Domain%20Registration%20and%20DNS%20Management.pdf)
